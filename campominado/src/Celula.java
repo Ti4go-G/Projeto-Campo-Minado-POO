@@ -1,10 +1,10 @@
-import java.util.ArrayList;
+
 
 public class Celula {
     private boolean minada;
     private boolean revelada;
-    private boolean marcada;
-    private boolean clicada;
+    public boolean marcada;
+    public boolean clicada;
    
 
 //inicia a celula com todos os atributos "falsos"
@@ -12,6 +12,7 @@ public class Celula {
         this.clicada=false;
         this.marcada=false;
         this.revelada=false;
+        this.minada = false;
     }
 
     public boolean minar(){
