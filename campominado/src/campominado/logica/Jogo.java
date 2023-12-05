@@ -1,3 +1,4 @@
+package campominado.logica;
 public class Jogo {
     String nome;
     int dificuldade;
