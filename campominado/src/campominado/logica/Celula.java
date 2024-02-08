@@ -32,7 +32,7 @@ public class Celula {
         return minada;
     }
     //clique retorna -1 se a celula estiver minada, se nao estiver chama o metodo minasProximas
-    public int clicar(){
+    public int revelar(){
         if(this.minada && !this.marcada){
             return -1;
         }else{
