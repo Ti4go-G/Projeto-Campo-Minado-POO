@@ -1,4 +1,8 @@
 package campominado.logica;
+
 public class CelulaVazia extends Celula {
-//ainda irei imlementar a lógica
+    // Construtor padrão
+    public CelulaVazia() {
+        super(); // Chama o construtor da superclasse (Celula)
+    }
 }
